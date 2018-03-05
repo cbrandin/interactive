@@ -1,0 +1,158 @@
+p, h2 {
+    margin: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    font-family: "Univers 55", "Helvetica", sans-serif;
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+h1 {
+    font-family: "Akzidenz-Grotesque BQ";
+    font-size: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-kerning: 400%;
+    text-align: center;
+    color: orangered;     
+}
+
+h3 {
+    text-align: center;
+    font-family: "Century";
+}
+
+.difference {
+    text-align: center;
+    font-family: "Futura Condensed";
+    color: blue;
+}
+
+.invisible {
+    text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);
+    color: white;
+    font-size: 60px;
+}
+/*
+*Animations
+*/
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.polling_message {
+  color: white;
+  float: center;
+  margin-right: 2%;            
+}
+
+.view_port {
+  background-color: none;
+  height: 400px;
+  width: 100%;
+  overflow: show;
+}
+
+.cylon_eye {
+  background-color: red;
+  background-image: linear-gradient(to right,
+      rgba(, 24, 23, 12) 25%,
+      rgba(0, 0, 0, .1) 50%,
+      rgba(0, 0, 0, .9) 75%);
+  color: white;
+  height: 100%;
+  width: 20%;
+
+  -webkit-animation: 9s linear 0s infinite alternate move_eye;
+          animation: 9s linear 0s infinite alternate move_eye;
+}
+
+@-webkit-keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
+        @keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  
+}
+
+.txtUpsideDown 
+{
+	filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=2);  /* IE6,IE7 */
+	ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)"; /* IE8 */
+	-moz-transform: rotate(-180deg);  /* FF3.5+ */
+	-o-transform: rotate(-180deg);  /* Opera 10.5 */
+	-webkit-transform: rotate(-180deg);  /* Safari 3.1+, Chrome */
+	position: inherit;
+}
+
+/*
+*====Boxes===
+*/
+
+.hold {
+    margin: 80px;
+    float: left;
+}
+
+.boxed {
+    font-family: "Gotham";
+    font-size: 80px;
+    color: darkred;
+    text-align: center;
+    text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);
+    margin: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 300px;
+    float: left;
+}
+
+.centered {
+    margin: auto;
+    text-align: left;
+    font-family: "Didot";
+    font-size: 42px;
+    justify-content: center;
+    text-decoration: inherit;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 90px;
+}
+
+.below {
+    margin: 80px;
+    width: auto;
+    height: 100px;
+    padding-left: 650px;
+    color: coral;
+}
+
+.title {
+    font-family: "Broadway";
+    margin: 90px;
+    padding-left: 50px;
+    padding-right: 50px;
+    float: center;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.allblack {
+    background-color: black;
+}
+
+.whitetext {
+    color: white;
+    font-family: "Andele Mono";
+    margin: auto;
+    background-color: black;
+    text-align: center;
+}

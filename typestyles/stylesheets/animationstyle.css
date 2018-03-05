@@ -1,0 +1,85 @@
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .50em; /* Adjust as needed */
+  animation: 
+    typing 10s steps(100, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+header {
+    font-size: 80px;
+    color: blueviolet;
+    background-color: black;
+    background-image: linear-gradient(orange, red)
+}
+
+h1 {
+    text-align: center;
+    font-family: "Elephant";
+}
+
+h3 {
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+}
+
+p {
+    text-align: center;
+    font-family: "Futura Condensed";
+    color: darkred;
+    font-size: 200px;
+}
+
+.float {
+    text-align: left;
+}
+
+div {
+    width: 200px;
+    height: 80px;
+    background-color: white;
+    font-family: "Manifesto";
+    position: relative;
+    -webkit-animation: mymove 6s infinite alternate; /* Safari 4.0 - 8.0 */
+    animation: mymove 6s infinite alternate;
+}
+
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 800px;}
+    
+}
+
+.left {
+    text-align: inherit;
+    float: left;
+    font-family: "Gotham";
+}
+
+.right {
+    float: right;
+    text-align: inherit;
+    font-family: "Helvetica Neue";
+}

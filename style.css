@@ -1,0 +1,40 @@
+h1, h2, p {
+    margin: 30px;
+    padding-left: 650px;
+    padding-right: 650px;
+    width: 200px
+}
+
+.container {
+  margin: 100px;
+  padding-left: 60px;
+  padding-right: 10px;
+  width: 10px;
+}
+
+.hero {
+    margin: 6px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 70px;
+    width: 400px;
+    height: auto
+}
+
+.hotdog {
+    width: 80px;
+    margin: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 80px; 
+}
+
+.yaint {
+    height: 50px;
+    width: 300px;
+    margin: 250px;
+    padding-left: 80px;
+    padding-right: 80px;
+    float: inherit;
+}
+

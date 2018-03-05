@@ -1,0 +1,87 @@
+header {
+    margin: 100px;
+    float: left;
+    width: 100px
+}
+
+body {
+    line-height: 28px;
+    font-family: "Univer 55", sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: "Futura", serif;
+    font-size: 41px;
+    font-weight: 200;
+}
+
+h4 {
+    font-family: "Didot";
+    font-size: 10px;
+    font-weight: 100;
+    text-align: right;
+        
+}
+
+p {
+    font-family: "Atami";
+    font-weight: 600;
+}
+
+.spaced {
+    height: 50px;
+    width: 300px;
+    margin: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    float: right;
+}
+
+.container {
+  margin: 100px;
+  padding-left: 60px;
+  padding-right: 60px;
+  width: 300px;
+}
+
+.hold {
+    margin: 80px;
+}
+
+.farright {
+    float: right;
+    margin: 30px;
+    font-family: "Univers 55";
+    font-size; 100px;
+}
+
+.typeone {
+    font-family: "Gotham", Gotham, sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+.typetwo {
+    font-family: "Didot", Helvetica;
+    font-weight: 500;
+    text-align: right;
+    letter-spacing: inherit
+}
+
+.typethree {
+    float: left;
+    margin: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Akzidenz-Grotesk BQ";
+    font-size: 30px;
+    letter-spacing: inherit;    
+}
+
+.fancy {
+    font-family: "Manifesto", handwritten;
+    font-size: 120px;
+    text-align: center;
+    letter-spacing: inherit;
+}
