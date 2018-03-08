@@ -1,9 +1,17 @@
-div {
+.header {
+    background: radial-gradient(white, #e9e9ce);
+    width: 1920px;
+    height: 1090px;
+}
+
+div, p {
     font-family: "Gotham";
+    text-align: center;
 }
 
 h1 {
     font-family: "Atami";
-    font-size: 40px;
-    color: red;
+    font-size: 60px;
+    color: black;
+    text-align: center;
 }
