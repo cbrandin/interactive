@@ -1,9 +1,9 @@
 .typewriter h1 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid black; /* The typwriter cursor */
+  overflow: hidden; /* content is not revealed until the animation */
+  border-right: .15em solid black; 
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .50em; /* Adjust as needed */
+  letter-spacing: .50em;
   animation: 
     typing 10s steps(100, end),
     blink-caret .75s step-end infinite;
@@ -56,7 +56,7 @@ div {
     background-color: white;
     font-family: "Manifesto";
     position: relative;
-    -webkit-animation: mymove 6s infinite alternate; /* Safari 4.0 - 8.0 */
+    -webkit-animation: mymove 6s infinite alternate;
     animation: mymove 6s infinite alternate;
 }
 
