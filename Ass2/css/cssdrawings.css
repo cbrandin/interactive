@@ -1,0 +1,223 @@
+/*
+
+CSS DRAWINGS s2018
+
+* * * * * * * * * * * * * * * * * *
+
+Full CSS Reset
+
+http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*
+  ========================================
+  Box model reset
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+.canvas {
+    display: block;
+    position: relative;
+    background-color: rgb(240,240,240);
+    border: solid 20px rgb(245,245,245);
+    box-shadow: 15px 15px 25px rgba(230, 222, 159, 0.78);
+    margin: 60px auto;
+    padding: 20px;
+    width: 900px;
+    height: 600px;
+}
+
+/*
+  ========================================
+  General
+  ========================================
+*/
+
+body{
+    background-color: rgb(255, 248, 224);
+}
+
+/*
+  ========================================
+  Drawing One
+  ========================================
+*/
+
+.skull{
+    position: relative;
+    top: 15%;
+    left: 45%;
+    
+}
+.head {
+    top: 15%;
+    position: absolute;
+    background: black;
+    border-radius: 100px 100px 0px 0px;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+}
+
+.face {
+    border-radius: 40px 40px 80px 80px;
+    width: 180px;
+    height: 180px;
+    background: #FFE4C4;
+    top: 30px;
+    left: 10px;
+    position: absolute;
+}
+
+.eyeleft {
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 100%;
+    z-index: 2;
+}
+
+.eyeright {
+     position: absolute;
+    top: 70px;
+    right: 50px;
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 100%;
+    z-index: 2;
+}
+
+.smile {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 70px;
+    top: 100px;
+    border-radius: 0px 0px 30px 30px;
+    background: red;
+    z-index: 2;
+    
+}
+
+.toothone {
+    width: 10px;
+    height: 10px;
+    left: 5px;
+    position: absolute;
+    background: white;
+    border-radius: 0%;
+}
+
+.toothtwo {
+    width: 10px;
+    height: 10px;
+    right: 5px;
+    position: absolute;
+    background: white;
+    border-radius: 0%;
+}
+
+.rightear {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    background: #FFEBCD;
+    border-radius: 0px 110px 100px 0px;
+    left: 150px;
+    top: 40px;
+    
+}
+
+.rightinner {
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    background: #ffaf4d;
+    border-radius: 0px 110px 100px 0px;
+    left: 0px;
+    top: 10px;
+}
+
+.leftear {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    background: #FFEBCD;
+    border-radius: 110px 0px 0px 100px;
+    right: 150px;
+    top: 40px;
+}
+
+.leftinner {
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    background: #ffaf4d;
+    border-radius: 110px 0px 0px 100px;
+    right: 0px;
+    top: 10px;
+}
