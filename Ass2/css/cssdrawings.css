@@ -221,3 +221,398 @@ body{
     right: 0px;
     top: 10px;
 }
+
+/*
+  ========================================
+  Drawing Two
+  ========================================
+*/
+
+.sea {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background: #020079;
+    top: 300px;
+}
+
+.sky {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background: #92E2FD;
+}
+
+.girl {
+    position: absolute;
+}
+
+.longhair {
+    width: 100px;
+    height: 250px;
+    background: bisque;
+    border-radius: 110px 100px 0px 100px;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+}
+
+.skirt {
+    width: 150px;
+    height: 150px;
+    background: #4D5E7C;
+    border-radius: 10px 10px 100px 0px;
+    position: absolute;
+    left: 370px;
+    top: 330px;
+}
+
+.rightleg {
+    position: absolute;
+    width: 30px;
+    height: 150px;
+    background: tan;
+    border-radius: 10px 10px 10px 10px;
+    top: 380px;
+    left: 470px;
+}
+
+.leftleg {
+    position: absolute;
+    width: 30px;
+    height: 150px;
+    background: tan;
+    border-radius: 10px 10px 10px 10px;
+    top: 380px;
+    left: 400px;
+}
+
+.body {
+    width: 140px;
+    height: 150px;
+    background: tan;
+    border-radius: 10px 10px 0px 0px;
+    position: absolute;
+    left: 375px;
+    top: 230px;
+}
+
+.cloudone {
+    width: 30px;
+    height: 30px;
+    background: white;
+    position: absolute;
+    border-radius: 20px 20px 00px 0px;
+    left: 40px;
+    top: 120px;
+}
+
+.cloudtwo {
+    width: 100px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    border-radius: 80px 80px 0px 0px;
+    left: 60px;
+    top: 50px;
+}
+.cloudthree {
+    width: 150px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    border-radius: 80px 80px 0px 0px;
+    left: 700px;
+    top: 90px;
+}
+
+.cloudfour {
+    width: 50px;
+    height: 50px;
+    background: white;
+    position: absolute;
+    border-radius: 80px 80px 0px 0px;
+    left: 650px;
+    top: 140px;
+}
+
+/*
+  ========================================
+  Drawing Three
+  ========================================
+*/
+
+.coke {
+    position: absolute;
+    margin: auto;
+}
+
+.coketop {
+    width: 50px;
+    height: 15px;
+    position: absolute;
+    background: green;
+    border-radius: 10px;
+    left: 395px;
+    top: 90px;
+}
+
+.cokeneck {
+    width: 70px;
+    height: 150px;
+    position: absolute;
+    background: #43271B;
+    border-radius: 2000px 2000px 0px 0px;
+    left: 385px;
+    top: 100px;
+}
+
+.cokethicc {
+    width: 170px;
+    height: 200px;
+    position: absolute;
+    background: #43271B;
+    border-radius: 190px 190px 90px 90px;
+    left: 335px;
+    top: 190px;
+}
+
+.cokebottom {
+    width: 170px;
+    height: 200px;
+    position: absolute;
+    background: #43271B;
+    border-radius: 190px 190px 90px 90px;
+    left: 335px;
+    top: 300px;
+}
+
+.cokelabel {
+    width: 170px;
+    height: 50px;
+    position: absolute;
+    background: red;
+    border-radius: 0px;
+    left: 335px;
+    top: 300px;
+}
+
+.bottleface {
+    position: absolute;
+    margin: auto;
+}
+
+.bottleeyeleft {
+    width: 30px;
+    height: 30px;
+    background: white;
+    position: absolute;
+    border-radius: 20px 20px 20px 20px;
+    left: 350px;
+    top: 300px;
+}
+
+.bottleeyeright {
+    width: 30px;
+    height: 30px;
+    background: white;
+    position: absolute;
+    border-radius: 20px 20px 20px 20px;
+    left: 460px;
+    top: 300px;
+}
+
+.bottlepupilleft {
+    width: 10px;
+    height: 10px;
+    background: black;
+    position: absolute;
+    border-radius: 20px 20px 20px 20px;
+    left: 360px;
+    top: 320px;
+}
+
+.bottlepupilright {
+    width: 10px;
+    height: 10px;
+    background: black;
+    position: absolute;
+    border-radius: 20px 20px 20px 20px;
+    left: 470px;
+    top: 320px;
+}
+
+.bottlemouth {
+    width: 30px;
+    height: 30px;
+    background: black;
+    position: absolute;
+    border-radius: 20px 20px 20px 20px;
+    left: 400px;
+    top: 330px;
+}
+
+.bottletooth {
+    width: 10px;
+    height: 15px;
+    background: white;
+    position: absolute;
+    border-radius: 0;
+    left: 410px;
+    top: 330px;
+}
+
+/*
+  ========================================
+  Drawing Four
+  ========================================
+*/
+
+.robohead {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background: grey;
+    left: 300px;
+    top: 100px;
+}
+
+.robolefteye {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 40px 40px 40px 40px;
+    left: 300px;
+    top: 100px;
+}
+
+.roborighteye {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 40px 40px 40px 40px;
+    left: 460px;
+    top: 100px;
+}
+
+.roboleftpupil {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 10px 10px 10px 10px;
+    left: 320px;
+    top: 110px;
+}
+
+.roborightpupil {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 10px 10px 10px 10px;
+    left: 480px;
+    top: 110px;
+}
+
+.robonose {
+    position: absolute;
+    width: 20px; 
+    height: 20px;
+    left: 400px;
+    top: 130px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid green;
+}
+
+.robomouth {
+    width: 50px;
+    height: 20px;
+    background: black;
+    position: absolute;
+    left: 380px;
+    top: 170px;
+}
+
+.roboteeth {
+    width: 45px;
+    height: 4px;
+    background: white;
+    position: absolute;
+    left: 385px;
+    top: 180px;
+}
+
+.robobody {
+    width: 400px;
+    height: 400px;
+    background: black;
+    position: absolute;
+    border-radius: 200px 200px 200px 200px;
+    left: 200px;
+    top: 150px;
+}
+
+.roboshirt {
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+  
+    border-top: 100px solid white;
+}
+
+.robotie {
+    width: 20px;
+    height: 100px;
+    background: black;
+    position: absolute;
+    left: 390px;
+    top: 200px;
+}
+
+.roboleftarm {
+    width: 60px;
+    height: 200px;
+    border-radius: 50px 50px 50px;
+    background: grey;
+    position: absolute;
+    left: 190px;
+    top: 250px;
+}
+
+.roborightarm {
+    width: 60px;
+    height: 200px;
+    border-radius: 50px 50px 50px;
+    background: grey;
+    position: absolute;
+    left: 550px;
+    top: 250px;
+}
+
+.moneybag {
+  position: absolute;
+    left: 170px;
+    top: 420px;
+  width: 80px;
+  height: 100px;
+  border: none;
+  border-radius: 50% / 60% 60% 40% 40%;
+  background: tan;   
+}
+
+.money {
+    font-family: "Helvetica";
+    font-size: 50px;
+    color: green;
+    position: absolute;
+    top: 460px;
+    left: 200px;
+}

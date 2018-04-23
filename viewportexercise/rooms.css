@@ -83,22 +83,20 @@ table {
 img {
     width: 100%;
     height: 100%;
+    display: flex;
 }
 
-.room {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+.bigboi {
+    background-image: url(images/room1.jpg);
+    background-size: 99%;
+    background-repeat: no-repeat;
 }
 
 .door {
-        width: inherit;
-        height: inherit;
         position: relative;
         display: block;
         margin: auto;
-    }
+}
     .door .img-top {
         display: none;
         position: absolute;
@@ -110,14 +108,175 @@ img {
         display: block;
 }
 
+.jankydoor {
+    position: relative;
+    width: 10%;
+    height: 20%;
+    margin: auto;
+    left: 17%;
+    display: block;
+}
+
+.blackdoor {
+    position: relative;
+    width: 8%;
+    height: 10%;
+    margin: auto;
+    top: 50%;
+    display: block;
+}
+
+.leatherdoor {
+    margin: auto;
+    width: 6%;
+    height: 10%;
+    position: relative;
+    right: 25%;
+    margin-top: 8%;
+}
+
 /*
 =================Room 2===============
 */
 
-.smalldoor {
-    margin: auto;
-    width: 80px;
-    height: 100%;
+.wrapper {
     display: inline-flex;
-    align-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.smalldoor {
+    display: inline-flex;
+    margin: 4%;
+    width: 5%;
+    height: 10%;
+}
+
+/*
+=================Room 3===============
+*/
+
+.blackout {
+    background-color: black;
+    display: block;
+}
+
+.centered {
+    background-color: black;
+    color: white;
+    border: none;
+    width: 72px;
+    height: 216px;
+
+}
+
+.change {
+        position: relative;
+        display: block;
+        margin: auto;
+}
+    .change .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+    .change:click .img-top {
+        display: block;
+}
+
+/*
+=================Room 4===============
+*/
+
+.middle {
+    background-color: white;
+    width: 72px;
+    height: 216px;
+    margin: auto;
+}
+
+.bignbeefy {
+    font-family: "Helvetica";
+    font-size: 100px;
+    align-content: center;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    width: 1000px;
+}
+
+.smol {
+    font-family: "Helvetica";
+    font-size: 15px;
+    color: white;
+    margin: auto;
+    display: block;
+    width: 150px
+}
+
+.back {
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: grey;
+    display: block;
+    width: 50px;
+    height: 10px;
+    align-content: center;
+    margin: auto;
+    top: 80%;
+    left: 50%;
+    position: absolute;
+}
+
+/*
+=================Room 5===============
+*/
+
+.weirdo {
+    font-family: "Helvetica";
+    color: black;
+    font-size: 12px;
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 50px;
+    align-content: center;
+}
+
+.yeet {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+}
+
+.theend {
+    font-family: "Univers 55";
+    display: inline-block;
+    position: relative;
+    width: 10%;
+    height: 10%;
+    margin-left: 600px;
+    margin-top: 0px;
+    color: transparent;
+}
+
+.yaint {
+    background-image: url(images/endroom/max.jpg);
+    background-repeat: no-repeat;
+    background-position:top;
+}
+.max {
+    font-family: "Univers 55";
+    font-size: 100px;
+    display: block;
+    width: 560px;
+    margin: auto;
+    margin-top: 400px;
+    color: white;
 }
