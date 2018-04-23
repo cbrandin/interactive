@@ -46,27 +46,27 @@ h1 {
 .poemone {
     width: 300px;
     margin: auto;
-    border: solid;
+    border: none;
     margin-top: 5%;
 }
 
 .cssdrawings {
     width: 500px;
     margin: auto;
-    border: solid;
+    border: none;
     margin-top: 5%;
 }
 
 .rooms {
     width: 200px;
     height: 100px;
-    border: solid;
+    border: none;
     margin: auto;
     margin-top: 5%;
 }
 
 .boxone {
-    border: solid;
+    border: none;
     width: 100px;
     height: 100px;
 }
