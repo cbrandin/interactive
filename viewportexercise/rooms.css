@@ -227,14 +227,19 @@ img {
 =================Room 5===============
 */
 
+@font-face {
+    font-family: doublevision;
+    src: url(../fonts/doublevision.ttf);
+}
+
 .weirdo {
-    font-family: "Helvetica";
+    font-family: "doublevision";
     color: black;
-    font-size: 12px;
+    font-size: 50px;
     display: block;
     margin: auto;
-    width: 100px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
     align-content: center;
 }
 
@@ -244,6 +249,8 @@ img {
     height: 100%;
     top: 50%;
 }
+
+/* ====================Room 12=================== */
 
 .theend {
     font-family: "Univers 55";
@@ -269,4 +276,18 @@ img {
     margin: auto;
     margin-top: 400px;
     color: white;
+}
+
+.flash {
+   animation-name: flash;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {color: white;}
+    to {color: deepskyblue;}
 }
