@@ -616,3 +616,13 @@ body{
     top: 460px;
     left: 200px;
 }
+
+/* ==================== */
+
+.test {
+  width:60%;
+  display:inline;
+  overflow: auto;
+  white-space: nowrap;
+  margin:0px auto;
+}
